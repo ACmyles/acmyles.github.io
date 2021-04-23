@@ -1,6 +1,26 @@
 h1 {
     margin: auto;
     text-align: center;
-    padding-top: 1%;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 300%;
+    animation: fadeIn 2.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+body {
+    background-color: #4158D0;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) no-repeat center center fixed;
 }
