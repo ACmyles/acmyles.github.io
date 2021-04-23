@@ -1,4 +1,12 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+body,
+html {
+    background-color: #4158D0;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) no-repeat center center fixed;
+}
+
+#helloworld {
     margin: auto;
     text-align: center;
     padding-top: 20%;
@@ -18,9 +26,4 @@ h1 {
         opacity: 1;
         transform: translateX(0px);
     }
-}
-
-body {
-    background-color: #4158D0;
-    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) no-repeat center center fixed;
 }
